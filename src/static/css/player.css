@@ -1,0 +1,103 @@
+h2 {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.player {
+    position: relative;
+}
+.player .songer_name {
+    font-size: 0.7em;
+    margin-left: 20px;
+    color: #a0a0a0;
+}
+.player .img {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.player .img img {
+    display: block;
+    width: 100%;
+}
+.player .palyer_btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.player .progress {
+    position: relative;
+    width: 420px;
+    height: 2px;
+    margin: 60px 0 30px 0;
+    border-radius: 1px;
+    background-color: #90e1ef;
+    cursor: pointer;
+}
+.player .progress .bar {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: -5px;
+    top: -4px;
+    background-color: #00ffff;
+    box-shadow: 0 0 1px 1px #f1f1f1;
+}
+.player .progress .played {
+    width: 0;
+    height: 2px;
+    background-color: #00ffff;
+}
+.player .control {
+    width: 420px;
+}
+.player .control .buttons {
+    text-align: center;
+}
+.player .prev_bg {
+    background: url("../img/player.png") -120px 0/auto 100% no-repeat;
+}
+.player .next_bg {
+    background: url("../img/player.png") -80px 0/auto 100% no-repeat;
+}
+.player .play_bg {
+    background: url("../img/player.png") 0 0/auto 100% no-repeat;
+}
+.player .pause_bg {
+    background: url("../img/player.png") -40px 0/auto 100% no-repeat;
+}
+.player .img .rotate {
+    -webkit-animation: imgRotate 20s linear infinite;
+    animation: imgRotate 20s linear infinite;
+}
+.player .img .rotate.pause {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+@-webkit-keyframes imgRotate {
+    from {
+        -webkit-transform: rotateZ(0);
+        transform: rotateZ(0);
+    }
+    to {
+        -webkit-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+    }
+}
+@keyframes imgRotate {
+    from {
+        -webkit-transform: rotateZ(0);
+        transform: rotateZ(0);
+    }
+    to {
+        -webkit-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+    }
+}

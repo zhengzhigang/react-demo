@@ -1,0 +1,6 @@
+.list li a {
+    display: inline-block;
+    min-width: 160px;
+    padding: 5px 0;
+    color: #90e1ef;
+}

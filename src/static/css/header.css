@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+.header ul:after {
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0
+}
+.header ul {
+    width: 240px;
+    margin: auto;
+    zoom: 1;
+}
+.header ul li {
+    float: left;
+    width: 120px;
+}
+.header ul a {
+    display: block;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+.header ul a:hover,
+.header ul .selected {
+    background-color: #90e1ef;
+    color: #fff;
+}
+
+
+

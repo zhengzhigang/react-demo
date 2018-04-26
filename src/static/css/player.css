@@ -5,6 +5,8 @@ h2 {
 }
 .player {
     position: relative;
+    padding: 20px;
+    background-color: #e4fbff;
 }
 .player .songer_name {
     font-size: 0.7em;
@@ -15,8 +17,8 @@ h2 {
     width: 140px;
     height: 140px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 40px;
+    right: 20px;
     border-radius: 50%;
     overflow: hidden;
 }

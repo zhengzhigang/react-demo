@@ -15,7 +15,7 @@ class SongList extends Component {
                 <ul className="list">
                     <li>
                         <Link to={{
-                            pathname: '/player',
+                            pathname: '/',
                             query:{
                                 type: 'SONG_URL',
                                 id: 0,
@@ -27,7 +27,7 @@ class SongList extends Component {
                     </li>
                     <li>
                         <Link to={{
-                            pathname: '/player',
+                            pathname: '/',
                             query:{
                                 type: 'SONG_URL',
                                 id: 1,
@@ -39,7 +39,7 @@ class SongList extends Component {
                     </li>
                     <li>
                         <Link to={{
-                            pathname: '/player',
+                            pathname: '/',
                             query:{
                                 type: 'SONG_URL',
                                 id: 2,
@@ -51,7 +51,7 @@ class SongList extends Component {
                     </li>
                     <li>
                         <Link to={{
-                            pathname: '/player',
+                            pathname: '/',
                             query:{
                                 type: 'SONG_URL',
                                 id: 3,
@@ -63,7 +63,7 @@ class SongList extends Component {
                     </li>
                     <li>
                         <Link to={{
-                            pathname: '/player',
+                            pathname: '/',
                             query:{
                                 type: 'SONG_URL',
                                 id: 4,
@@ -75,7 +75,7 @@ class SongList extends Component {
                     </li>
                     <li>
                         <Link to={{
-                            pathname: '/player',
+                            pathname: '/',
                             query:{
                                 type: 'SONG_URL',
                                 id: 5,

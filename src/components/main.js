@@ -8,7 +8,7 @@ class Main extends Component {
     render () {
         return (
             <div className="main">
-                <Route path="/player" component={Player} />
+                <Route exact path="/" component={Player} />
                 <Route path="/song-list" component={SongList} />
             </div>
         );

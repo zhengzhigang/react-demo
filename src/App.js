@@ -18,6 +18,10 @@ import PageRouter from './router/router';
 import Header from './components/header';
 import Main from './components/main';
 
+import createBrowserHistory from 'history/createBrowserHistory'
+
+const history = createBrowserHistory()
+
 const styles = {
   list:{
     listStyle:'none',
@@ -76,7 +80,7 @@ class App extends Component {
         <FlavorForm />
         <FileInput /> */}
         {/* <PageRouter data={page_data}/> */}
-        <Router>
+        <Router history={history}>
           <div>
             <Header />
             <Main />
